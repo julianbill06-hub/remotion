@@ -8,7 +8,7 @@ HL = set(w.upper() for w in cfg["highlight"])
 spans = []; tws = []
 for i, w in enumerate(words):
     txt = w["w"].strip(".,?!").upper()
-    nxt = words[i+1]["s"] if i+1 < len(words) else DUR
+    nxt = max(0.1, words[i+1]["s"] - 0.03) if i+1 < len(words) else DUR
     start = max(0.1, w["s"] - 0.03)
     end = min(nxt - 0.01, max(w["e"] + 0.25, start + 0.22)) if nxt - w["e"] < 0.6 else w["e"] + 0.3
     end = min(end, nxt - 0.01) if i+1 < len(words) else min(end, DUR)

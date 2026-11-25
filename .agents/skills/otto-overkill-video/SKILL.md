@@ -22,6 +22,32 @@ and has its own problem and its own overkill solution.
 - Never speaks. Acts with brows, lids, pupils, mouth and squash. Ends every episode smug.
 - Built by `makeOtto()` / `pose()` in `template/assets/otto-kit.js`. Reuse it; don't redesign him.
 
+## Mia (Otto's girlfriend, recurring)
+
+Same toy build without mustache and hat: teal hoodie (`#43b9a8`), purple pants, dark-brown hair with
+ponytail and pink scrunchie, eyelashes. `makeOtto({ pal: {...}, mustache: false, hat: false,
+longHair: true, lashes: true })` — exact values in `episodes/ep02/ep02.js`. She is the "unnecessarily
+mad" counterpart: arms crossed, angry brows, steam puffs. Never mean-spirited; the joke is on Otto.
+
+## Topics people relate to
+
+Pick everyday frustrations with a clear "normal fix" (the user wants relatable stories, e.g. the
+girlfriend getting unnecessarily mad). Don't reuse the reference account's own gags (drunk-texting
+the ex, the spider, glasses). Ideas, unused unless listed in `episodes/`:
+
+- ✔ Ep 1 — phone at 1 %, charger across the room.
+- ✔ Ep 2 — girlfriend "isn't hungry", then eats your fries (Mia).
+- "Where do you want to eat?" — "Anything." — rejects every place (Otto builds a restaurant roulette machine).
+- She asks "Do I look fat in this?" (Otto builds a 47-compliment answering robot; it says the wrong one).
+- She steals the blanket every night (blanket on a winch / bolted to the bed).
+- Group chat left on read; she sees "typing…" for 5 minutes (Otto builds a message-approval committee).
+- Alarm clock: snooze nine times (Otto's alarm fires him out of bed with a catapult).
+- Roommate eats your yogurt (labelled yogurt in a safe with fingerprint scanner).
+- Socks always lose their partner (sock-tracking GPS system).
+- Wi-Fi dead in one corner of the flat (40 m of router cable through the whole house).
+- Can't open the pickle jar (hydraulic press).
+- Forgot her birthday; reminder system with 600 alarms.
+
 ## Episode formula (20–30 s)
 
 1. **Hook (0–3 s)** — 2nd-person problem, visible at frame 0. "You're in bed. Your phone is at one percent."

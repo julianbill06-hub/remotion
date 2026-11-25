@@ -1,0 +1,28 @@
+{
+  "title": "Otto Overkill — Ep. 02: I'm not hungry",
+  "duration": 21.5,
+  "scene": "ep02.js",
+  "hlColor": "#e6ff3d",
+  "highlight": ["GIRLFRIEND", "NOT", "HUNGRY", "HALF", "FRIES", "OTTO", "GLASS", "DOME", "THREE", "LOCKS", "LASER", "ALARM", "SAFE", "MAD", "TRUST", "BURGER", "WORTH"],
+  "audio": [
+    {"id": "vo", "src": "assets/voice.wav", "start": 0, "lane": 1, "vol": 1},
+    {"id": "mus", "src": "assets/music.wav", "start": 0, "lane": 2, "vol": 0.3},
+    {"id": "mus2", "src": "assets/music2.wav", "start": 18.95, "lane": 2, "vol": 0.28, "fadeIn": 0.3, "fadeOut": 0.6},
+    {"id": "sfx-c1", "src": "assets/sfx/crunch.wav", "start": 3.37, "lane": 3, "vol": 0.8},
+    {"id": "sfx-c2", "src": "assets/sfx/crunch.wav", "start": 3.72, "lane": 3, "vol": 0.8},
+    {"id": "sfx-c3", "src": "assets/sfx/crunch.wav", "start": 4.07, "lane": 3, "vol": 0.8},
+    {"id": "sfx-boing", "src": "assets/sfx/boing.wav", "start": 5.6, "lane": 3, "vol": 0.5},
+    {"id": "sfx-hat", "src": "assets/sfx/clunk.wav", "start": 6.87, "lane": 3, "vol": 0.9},
+    {"id": "sfx-dome", "src": "assets/sfx/dome.wav", "start": 8.75, "lane": 3, "vol": 0.9},
+    {"id": "sfx-l1", "src": "assets/sfx/lock.wav", "start": 9.4, "lane": 3, "vol": 0.9},
+    {"id": "sfx-l2", "src": "assets/sfx/lock.wav", "start": 9.62, "lane": 3, "vol": 0.9},
+    {"id": "sfx-l3", "src": "assets/sfx/lock.wav", "start": 9.88, "lane": 3, "vol": 0.9},
+    {"id": "sfx-laser", "src": "assets/sfx/laser.wav", "start": 10.45, "lane": 3, "vol": 0.7},
+    {"id": "sfx-alarm", "src": "assets/sfx/alarm.wav", "start": 12.55, "lane": 3, "vol": 0.55, "dur": 0.95, "fadeOut": 0.2},
+    {"id": "sfx-steam", "src": "assets/sfx/steam.wav", "start": 13.6, "lane": 3, "vol": 0.6},
+    {"id": "sfx-b1", "src": "assets/sfx/crunch.wav", "start": 17.45, "lane": 3, "vol": 1},
+    {"id": "sfx-b2", "src": "assets/sfx/crunch.wav", "start": 17.85, "lane": 3, "vol": 1},
+    {"id": "sfx-b3", "src": "assets/sfx/crunch.wav", "start": 18.25, "lane": 3, "vol": 1},
+    {"id": "sfx-ding", "src": "assets/sfx/ding.wav", "start": 19.75, "lane": 3, "vol": 0.35}
+  ]
+}

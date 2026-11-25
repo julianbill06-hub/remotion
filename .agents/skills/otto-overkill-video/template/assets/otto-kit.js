@@ -3,6 +3,7 @@
 import * as THREE from "./lib/three.module.min.js";
 export { THREE };
 
+
 // ---------- math ----------
 export const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
 export const lerp = (a, b, k) => a + (b - a) * k;
@@ -86,7 +87,7 @@ export function glowSprite(color, size) {
 }
 
 // ---------- Otto ----------
-export const PAL = {
+export const PAL0 = {
   skin: "#f6c29b",
   hair: "#c8521c",
   hoodie: "#ff7a2e",
@@ -97,8 +98,10 @@ export const PAL = {
   hat: "#ffc81a",
   ink: "#1d1a22",
 };
+export const PAL = PAL0;
 
-export function makeOtto() {
+export function makeOtto(o = {}) {
+  const PAL = { ...PAL0, ...(o.pal || {}) };
   const P = {};
   const root = new THREE.Group();
   const hips = at(new THREE.Group(), 0, 0.9, 0);
@@ -199,12 +202,33 @@ export function makeOtto() {
   hair.rotation.x = -0.32;
   at(hair, 0, 0.31, -0.02);
   head.add(hair);
+  if (o.longHair) {
+    for (const side of [1, -1]) {
+      const lock = mesh(new THREE.CapsuleGeometry(0.11, 0.34, 4, 10), mat(PAL.hair, 0.9));
+      at(lock, 0.29 * side, 0.2, -0.06);
+      lock.rotation.z = 0.12 * side;
+      head.add(lock);
+    }
+    const back = mesh(new THREE.SphereGeometry(0.34, 24, 16), mat(PAL.hair, 0.9));
+    back.scale.set(1.02, 1.0, 0.9);
+    at(back, 0, 0.3, -0.07);
+    head.add(back);
+    const tail = mesh(new THREE.CapsuleGeometry(0.1, 0.36, 4, 10), mat(PAL.hair, 0.9));
+    at(tail, 0, 0.42, -0.38);
+    tail.rotation.x = 0.7;
+    head.add(tail);
+    const tie = mesh(new THREE.TorusGeometry(0.07, 0.025, 8, 16), mat(PAL.accent || "#ff5f8f", 0.5));
+    at(tie, 0, 0.52, -0.33);
+    tie.rotation.x = 0.7 + Math.PI / 2;
+    head.add(tie);
+    P.tail = tail;
+  }
   const nose = mesh(new THREE.SphereGeometry(0.06, 14, 10), mat("#f0a986", 0.7));
   nose.scale.set(1, 0.9, 0.85);
   at(nose, 0, 0.27, 0.32);
   head.add(nose);
   // mustache — Otto's signature
-  for (const side of [1, -1]) {
+  if (o.mustache !== false) for (const side of [1, -1]) {
     const m = mesh(new THREE.CapsuleGeometry(0.038, 0.1, 4, 10), mat(PAL.hair, 0.9));
     m.rotation.z = Math.PI / 2 + 0.38 * side;
     at(m, 0.075 * side, 0.205, 0.3);
@@ -227,6 +251,14 @@ export function makeOtto() {
     const lid = mesh(new THREE.SphereGeometry(0.086, 18, 10, 0, Math.PI * 2, 0, Math.PI / 2), mat(PAL.skin, 0.7), { shadow: false });
     lid.scale.set(1, 1.12, 0.78);
     eg.add(lid);
+    if (o.lashes) {
+      for (let k = -1; k <= 1; k++) {
+        const l = mesh(new THREE.BoxGeometry(0.012, 0.04, 0.01), mat(PAL.ink, 0.5), { shadow: false });
+        at(l, 0.035 * k + 0.035 * side, 0.09, 0.035);
+        l.rotation.z = -0.4 * side;
+        eg.add(l);
+      }
+    }
     const brow = mesh(rbox(0.13, 0.032, 0.03, 0.012), mat(PAL.hair, 0.9), { shadow: false });
     brow.position.set(0, 0.115, 0.03);
     eg.add(brow);
@@ -236,7 +268,7 @@ export function makeOtto() {
   // mouth
   const mouth = at(new THREE.Group(), 0, 0.14, 0.305);
   head.add(mouth);
-  const smile = mesh(new THREE.TorusGeometry(0.06, 0.014, 8, 18, Math.PI), mat("#7a2a1c", 0.5), { shadow: false });
+  const smile = mesh(new THREE.TorusGeometry(0.06, 0.014, 8, 18, Math.PI), mat(PAL.lip || "#7a2a1c", 0.5), { shadow: false });
   smile.rotation.z = Math.PI;
   mouth.add(smile);
   const oMouth = mesh(new THREE.SphereGeometry(0.045, 14, 10), mat("#5a1a14", 0.5), { shadow: false });
@@ -263,7 +295,7 @@ export function makeOtto() {
   badge.rotation.x = -0.75;
   hat.add(badge);
   at(hat, 0, 0.5, 0);
-  head.add(hat);
+  if (o.hat !== false) head.add(hat);
   P.hat = hat;
 
   root.traverse((o) => {

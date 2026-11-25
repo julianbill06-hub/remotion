@@ -43,3 +43,16 @@ save("crickets",0.12*ch)
 # boing (head shake / comedic)
 d=t(0.5); f=300+120*np.sin(2*np.pi*14*d)*np.exp(-d*5)
 save("boing",0.5*np.sin(2*np.pi*np.cumsum(f)/SR)*env(len(d),0.003,0.18))
+# crunch (eating fries / burger)
+d=t(0.22); n=rng.standard_normal(len(d)); g=(rng.random(len(d))<0.25)
+save("crunch",0.6*n*g*env(len(d),0.001,0.06))
+# alarm siren (2 s, two-tone)
+d=t(2.0); f=np.where((d*4)%1<0.5,880,660); save("alarm",0.35*np.sign(np.sin(2*np.pi*np.cumsum(f)/SR))*np.clip(1-d/2.2,0,1))
+# laser on
+d=t(0.6); f=200+2400*d; save("laser",0.35*np.sin(2*np.pi*np.cumsum(f)/SR)*env(len(d),0.005,0.4))
+# glass dome thunk
+d=t(0.5); save("dome",(0.6*np.sin(2*np.pi*520*d)+0.4*np.sin(2*np.pi*1310*d))*env(len(d),0.001,0.15)+0.4*np.sin(2*np.pi*90*d)*env(len(d),0.001,0.08))
+# lock click
+d=t(0.15); save("lock",0.8*rng.standard_normal(len(d))*env(len(d),0.0005,0.006)+0.4*np.sin(2*np.pi*2200*d)*env(len(d),0.001,0.02))
+# steam hiss
+d=t(1.2); save("steam",0.25*rng.standard_normal(len(d))*np.sin(np.pi*d/1.2))
