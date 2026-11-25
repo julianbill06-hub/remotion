@@ -1,0 +1,30 @@
+{
+  "title": "Otto Overkill — Ep. 01: Phone at 1%",
+  "duration": 23,
+  "scene": "ep01.js",
+  "hlColor": "#e6ff3d",
+  "highlight": ["ONE", "PERCENT", "CHARGER", "THERE", "NOT", "OTTO", "SEVEN", "TWELVE", "METER", "TWO", "STREET", "LIGHTS", "OUT", "WORTH"],
+  "audio": [
+    {"id": "vo", "src": "assets/voice.wav", "start": 0, "lane": 1, "vol": 1},
+    {"id": "mus", "src": "assets/music.wav", "start": 0, "lane": 2, "vol": 0.32},
+    {"id": "mus2", "src": "assets/music2.wav", "start": 19.95, "lane": 2, "vol": 0.28, "fadeIn": 0.4, "fadeOut": 0.6},
+    {"id": "sfx-whoosh1", "src": "assets/sfx/whoosh.wav", "start": 2.9, "lane": 3, "vol": 0.7},
+    {"id": "sfx-boing", "src": "assets/sfx/boing.wav", "start": 5.75, "lane": 3, "vol": 0.5},
+    {"id": "sfx-hat", "src": "assets/sfx/clunk.wav", "start": 6.97, "lane": 3, "vol": 0.9},
+    {"id": "sfx-pop1", "src": "assets/sfx/pop.wav", "start": 8.1, "lane": 3, "vol": 0.7},
+    {"id": "sfx-pop2", "src": "assets/sfx/pop.wav", "start": 8.5, "lane": 3, "vol": 0.7},
+    {"id": "sfx-pop3", "src": "assets/sfx/pop.wav", "start": 8.85, "lane": 3, "vol": 0.7},
+    {"id": "sfx-pop4", "src": "assets/sfx/pop.wav", "start": 9.17, "lane": 3, "vol": 0.7},
+    {"id": "sfx-pop5", "src": "assets/sfx/pop.wav", "start": 9.47, "lane": 3, "vol": 0.7},
+    {"id": "sfx-pop6", "src": "assets/sfx/pop.wav", "start": 9.75, "lane": 3, "vol": 0.7},
+    {"id": "sfx-pop7", "src": "assets/sfx/pop.wav", "start": 10.03, "lane": 3, "vol": 0.7},
+    {"id": "sfx-whoosh2", "src": "assets/sfx/whoosh.wav", "start": 10.25, "lane": 3, "vol": 0.5},
+    {"id": "sfx-plug", "src": "assets/sfx/plug.wav", "start": 13.3, "lane": 3, "vol": 0.9},
+    {"id": "sfx-zap", "src": "assets/sfx/zap.wav", "start": 13.45, "lane": 4, "vol": 0.9},
+    {"id": "sfx-ding", "src": "assets/sfx/ding.wav", "start": 14.8, "lane": 3, "vol": 0.6},
+    {"id": "sfx-breaker", "src": "assets/sfx/clunk.wav", "start": 17.45, "lane": 3, "vol": 1},
+    {"id": "sfx-powerdown", "src": "assets/sfx/powerdown.wav", "start": 17.45, "lane": 4, "vol": 0.8},
+    {"id": "sfx-crickets", "src": "assets/sfx/crickets.wav", "start": 17.9, "lane": 3, "vol": 0.6, "dur": 2.0, "fadeOut": 0.4},
+    {"id": "sfx-zap2", "src": "assets/sfx/zap.wav", "start": 21.3, "lane": 3, "vol": 0.3}
+  ]
+}
