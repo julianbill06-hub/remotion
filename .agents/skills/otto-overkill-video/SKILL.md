@@ -100,5 +100,6 @@ push-ins, one whip-pan max, shake + flash only on impacts, faces do the comedy. 
 
 ## Delivery
 
-Give the user the MP4 path, the narration text, a caption for the post (English, 1 line + 3–5
-hashtags such as `#otto #overengineering #lifehack #3danimation #funny`) and say which voice was used.
+Give the user the MP4 path, the narration text, and the TikTok caption plus YouTube Shorts title and
+description written by the rules in `references/POSTING.md` (examples for every episode there; add
+the new episode's copy to that file). Say which voice was used.
