@@ -37,7 +37,7 @@ the ex, the spider, glasses). Ideas, unused unless listed in `episodes/`:
 
 - ✔ Ep 1 — phone at 1 %, charger across the room.
 - ✔ Ep 2 — girlfriend "isn't hungry", then eats your fries (Mia).
-- "Where do you want to eat?" — "Anything." — rejects every place (Otto builds a restaurant roulette machine).
+- ✔ Ep 3 — "Where do you want to eat?" — "Anything." — says no to everything (restaurant wheel, 47 spins, 2 a.m. pizza).
 - She asks "Do I look fat in this?" (Otto builds a 47-compliment answering robot; it says the wrong one).
 - She steals the blanket every night (blanket on a winch / bolted to the bed).
 - Group chat left on read; she sees "typing…" for 5 minutes (Otto builds a message-approval committee).

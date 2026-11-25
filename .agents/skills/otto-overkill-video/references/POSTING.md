@@ -46,3 +46,20 @@ Tag the person who steals your food 👇
 
 #shorts #otto #couplehumor #relatable #girlfriend #3danimation #funny
 ```
+
+## Ep 3 — Where do you want to eat?
+
+TikTok:
+```
+"I don't care, anything" 🙃🍕 send this to the person who never decides #otto #girlfriend #relatable #couplehumor #3danimation #fyp
+```
+YouTube title: `"Where do you want to eat?" "Anything." 🍕 #shorts`
+```
+You ask her where she wants to eat. She says "anything". Then she says no to everything.
+
+Otto built a giant wheel with 50 restaurants. 47 spins later it's 2 a.m. and they order the first thing it landed on.
+
+Send this to the person who never decides 👇
+
+#shorts #otto #couplehumor #relatable #girlfriend #3danimation #funny
+```

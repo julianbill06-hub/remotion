@@ -1,0 +1,30 @@
+{
+  "title": "Otto Overkill — Ep. 03: Where do you want to eat?",
+  "duration": 23.5,
+  "scene": "ep03.js",
+  "hlColor": "#e6ff3d",
+  "highlight": ["GIRLFRIEND", "EAT", "ANYTHING", "NO", "EVERYTHING", "OTTO", "GIANT", "WHEEL", "FIFTY", "ONE", "PIZZA", "NOT", "FORTY", "SEVEN", "TWO", "WORTH"],
+  "audio": [
+    {"id": "vo", "src": "assets/voice.wav", "start": 0, "lane": 1, "vol": 1},
+    {"id": "mus", "src": "assets/music.wav", "start": 0, "lane": 2, "vol": 0.3},
+    {"id": "mus2", "src": "assets/music2.wav", "start": 19.35, "lane": 2, "vol": 0.26, "fadeIn": 0.3, "fadeOut": 0.6},
+    {"id": "sfx-s1", "src": "assets/sfx/pop.wav", "start": 4.45, "lane": 3, "vol": 0.7},
+    {"id": "sfx-x1", "src": "assets/sfx/boing.wav", "start": 4.62, "lane": 4, "vol": 0.35},
+    {"id": "sfx-s2", "src": "assets/sfx/pop.wav", "start": 4.85, "lane": 3, "vol": 0.7},
+    {"id": "sfx-x2", "src": "assets/sfx/boing.wav", "start": 5.12, "lane": 4, "vol": 0.35},
+    {"id": "sfx-s3", "src": "assets/sfx/pop.wav", "start": 5.25, "lane": 3, "vol": 0.7},
+    {"id": "sfx-x3", "src": "assets/sfx/boing.wav", "start": 5.65, "lane": 4, "vol": 0.35},
+    {"id": "sfx-hat", "src": "assets/sfx/clunk.wav", "start": 8.37, "lane": 3, "vol": 0.9},
+    {"id": "sfx-rise", "src": "assets/sfx/whoosh.wav", "start": 9.4, "lane": 3, "vol": 0.7},
+    {"id": "sfx-land", "src": "assets/sfx/clunk.wav", "start": 9.95, "lane": 4, "vol": 0.8},
+    {"id": "sfx-lever", "src": "assets/sfx/plug.wav", "start": 12.15, "lane": 3, "vol": 0.8},
+    {"id": "sfx-spin", "src": "assets/sfx/spin.wav", "start": 12.25, "lane": 4, "vol": 0.8},
+    {"id": "sfx-ding", "src": "assets/sfx/ding.wav", "start": 13.5, "lane": 3, "vol": 0.6},
+    {"id": "sfx-no", "src": "assets/sfx/pop.wav", "start": 14.65, "lane": 3, "vol": 0.7},
+    {"id": "sfx-x4", "src": "assets/sfx/boing.wav", "start": 15.62, "lane": 4, "vol": 0.45},
+    {"id": "sfx-fast", "src": "assets/sfx/spinfast.wav", "start": 16.6, "lane": 3, "vol": 0.6},
+    {"id": "sfx-crickets", "src": "assets/sfx/crickets.wav", "start": 19.3, "lane": 4, "vol": 0.25, "dur": 2.0, "fadeOut": 0.5},
+    {"id": "sfx-crunch", "src": "assets/sfx/crunch.wav", "start": 19.9, "lane": 3, "vol": 0.8},
+    {"id": "sfx-ding2", "src": "assets/sfx/ding.wav", "start": 21.7, "lane": 3, "vol": 0.35}
+  ]
+}
