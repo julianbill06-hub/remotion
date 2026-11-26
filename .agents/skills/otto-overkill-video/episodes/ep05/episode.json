@@ -1,0 +1,28 @@
+{
+  "title": "Otto Overkill — Ep. 05: The blanket thief",
+  "duration": 19.0,
+  "scene": "ep05.js",
+  "hlColor": "#e6ff3d",
+  "highlight": ["EVERY", "NIGHT", "GIRLFRIEND", "WHOLE", "BLANKET", "FREEZING", "SECOND", "OTTO", "CHAINS", "HALF", "STEEL", "TWO", "PADLOCKS", "CAN'T", "MATTRESS", "WORTH"],
+  "audio": [
+    {"id": "vo", "src": "assets/voice.wav", "start": 0, "lane": 1, "vol": 1},
+    {"id": "mus", "src": "assets/music.wav", "start": 0, "lane": 2, "vol": 0.28},
+    {"id": "mus2", "src": "assets/music2.wav", "start": 16.7, "lane": 2, "vol": 0.24, "fadeIn": 0.2, "fadeOut": 0.6},
+    {"id": "sfx-rustle", "src": "assets/sfx/rustle.wav", "start": 1.9, "lane": 3, "vol": 0.8},
+    {"id": "sfx-shiver", "src": "assets/sfx/shiver.wav", "start": 3.3, "lane": 3, "vol": 0.7},
+    {"id": "sfx-boing", "src": "assets/sfx/boing.wav", "start": 6.05, "lane": 3, "vol": 0.5},
+    {"id": "sfx-up", "src": "assets/sfx/whoosh.wav", "start": 6.95, "lane": 4, "vol": 0.5},
+    {"id": "sfx-hat", "src": "assets/sfx/clunk.wav", "start": 7.37, "lane": 3, "vol": 0.9},
+    {"id": "sfx-c1", "src": "assets/sfx/clank.wav", "start": 9.2, "lane": 3, "vol": 0.8},
+    {"id": "sfx-c2", "src": "assets/sfx/clank.wav", "start": 9.7, "lane": 3, "vol": 0.8},
+    {"id": "sfx-c3", "src": "assets/sfx/clank.wav", "start": 10.2, "lane": 3, "vol": 0.8},
+    {"id": "sfx-l1", "src": "assets/sfx/lock.wav", "start": 11.25, "lane": 3, "vol": 0.9},
+    {"id": "sfx-l2", "src": "assets/sfx/lock.wav", "start": 11.65, "lane": 3, "vol": 0.9},
+    {"id": "sfx-t1", "src": "assets/sfx/clank.wav", "start": 13.0, "lane": 3, "vol": 0.9},
+    {"id": "sfx-t2", "src": "assets/sfx/clank.wav", "start": 13.45, "lane": 3, "vol": 0.9},
+    {"id": "sfx-t3", "src": "assets/sfx/clank.wav", "start": 13.9, "lane": 3, "vol": 0.9},
+    {"id": "sfx-drag", "src": "assets/sfx/drag.wav", "start": 14.95, "lane": 3, "vol": 0.8},
+    {"id": "sfx-thud", "src": "assets/sfx/clunk.wav", "start": 15.3, "lane": 4, "vol": 1},
+    {"id": "sfx-ding", "src": "assets/sfx/ding.wav", "start": 17.45, "lane": 3, "vol": 0.3}
+  ]
+}

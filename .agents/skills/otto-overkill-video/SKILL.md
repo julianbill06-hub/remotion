@@ -31,6 +31,9 @@ mad" counterpart: arms crossed, angry brows, steam puffs. Never mean-spirited; t
 
 ## Topics people relate to
 
+The user prefers **Otto + Mia couple stories**; the solo episode (Ep 4) was rejected as weak — only do solo when asked.
+
+
 Pick everyday frustrations with a clear "normal fix" (the user wants relatable stories, e.g. the
 girlfriend getting unnecessarily mad). Don't reuse the reference account's own gags (drunk-texting
 the ex, the spider, glasses). Ideas, unused unless listed in `episodes/`:
@@ -39,7 +42,7 @@ the ex, the spider, glasses). Ideas, unused unless listed in `episodes/`:
 - ✔ Ep 2 — girlfriend "isn't hungry", then eats your fries (Mia).
 - ✔ Ep 3 — "Where do you want to eat?" — "Anything." — says no to everything (restaurant wheel, 47 spins, 2 a.m. pizza).
 - She asks "Do I look fat in this?" (Otto builds a 47-compliment answering robot; it says the wrong one).
-- She steals the blanket every night (blanket on a winch / bolted to the bed).
+- ✔ Ep 5 — she steals the blanket every night (Otto chains his half to the bed; she steals the mattress).
 - Group chat left on read; she sees "typing…" for 5 minutes (Otto builds a message-approval committee).
 - Alarm clock: snooze nine times (Otto's alarm fires him out of bed with a catapult).
 - Roommate eats your yogurt (labelled yogurt in a safe with fingerprint scanner).

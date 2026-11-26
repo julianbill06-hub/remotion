@@ -80,3 +80,20 @@ What's your go-to trick for stuck jars? 👇
 
 #shorts #otto #overengineering #3danimation #funny #relatable #lifehack
 ```
+
+## Ep 5 — The blanket thief
+
+TikTok:
+```
+Every. Single. Night. 😤🛏️ tag the blanket thief #otto #girlfriend #relatable #couplehumor #3danimation #fyp
+```
+YouTube title: `She steals the blanket every night… 🛏️ #shorts`
+```
+Every night she steals the whole blanket. Normal people would get a second one. Not Otto.
+
+Steel chains. Two padlocks. The blanket stays. The mattress doesn't.
+
+Tag the blanket thief 👇
+
+#shorts #otto #couplehumor #relatable #girlfriend #3danimation #funny
+```
