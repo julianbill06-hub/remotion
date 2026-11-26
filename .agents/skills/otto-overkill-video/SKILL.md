@@ -45,7 +45,7 @@ the ex, the spider, glasses). Ideas, unused unless listed in `episodes/`:
 - Roommate eats your yogurt (labelled yogurt in a safe with fingerprint scanner).
 - Socks always lose their partner (sock-tracking GPS system).
 - Wi-Fi dead in one corner of the flat (40 m of router cable through the whole house).
-- Can't open the pickle jar (hydraulic press).
+- ✔ Ep 4 — can't open the pickle jar (solo: hydraulic press, kitchen explodes, the one pickle on the ceiling drops into his mouth).
 - Forgot her birthday; reminder system with 600 alarms.
 
 ## Episode formula (20–30 s)

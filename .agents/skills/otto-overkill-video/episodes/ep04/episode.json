@@ -1,0 +1,29 @@
+{
+  "title": "Otto Overkill — Ep. 04: The pickle jar",
+  "duration": 21.0,
+  "scene": "ep04.js",
+  "hlColor": "#e6ff3d",
+  "highlight": ["ONE", "PICKLE", "JAR", "WON'T", "HOT", "WATER", "OTTO", "HYDRAULIC", "PRESS", "TWENTY", "TONS", "LID", "OFF", "KITCHEN", "CEILING", "WORTH"],
+  "audio": [
+    {"id": "vo", "src": "assets/voice.wav", "start": 0, "lane": 1, "vol": 1},
+    {"id": "mus", "src": "assets/music.wav", "start": 0, "lane": 2, "vol": 0.3},
+    {"id": "mus2", "src": "assets/music2.wav", "start": 18.6, "lane": 2, "vol": 0.26, "fadeIn": 0.2, "fadeOut": 0.6},
+    {"id": "sfx-strain1", "src": "assets/sfx/strain.wav", "start": 2.05, "lane": 3, "vol": 0.7},
+    {"id": "sfx-strain2", "src": "assets/sfx/strain.wav", "start": 2.6, "lane": 3, "vol": 0.7},
+    {"id": "sfx-boing", "src": "assets/sfx/boing.wav", "start": 5.2, "lane": 3, "vol": 0.5},
+    {"id": "sfx-hat", "src": "assets/sfx/clunk.wav", "start": 6.17, "lane": 3, "vol": 0.9},
+    {"id": "sfx-rise", "src": "assets/sfx/whoosh.wav", "start": 7.3, "lane": 3, "vol": 0.7},
+    {"id": "sfx-land", "src": "assets/sfx/clunk.wav", "start": 7.9, "lane": 4, "vol": 0.9},
+    {"id": "sfx-hyd", "src": "assets/sfx/hydraulic.wav", "start": 9.05, "lane": 3, "vol": 0.6},
+    {"id": "sfx-btn", "src": "assets/sfx/plug.wav", "start": 10.97, "lane": 4, "vol": 0.8},
+    {"id": "sfx-down", "src": "assets/sfx/hydraulic.wav", "start": 11.1, "lane": 3, "vol": 0.5, "dur": 1.0},
+    {"id": "sfx-lid", "src": "assets/sfx/lidpop.wav", "start": 11.9, "lane": 4, "vol": 0.9},
+    {"id": "sfx-boom", "src": "assets/sfx/boom.wav", "start": 12.85, "lane": 3, "vol": 1},
+    {"id": "sfx-glass", "src": "assets/sfx/glass.wav", "start": 12.9, "lane": 4, "vol": 0.8},
+    {"id": "sfx-splat", "src": "assets/sfx/splat.wav", "start": 13.3, "lane": 5, "vol": 0.8},
+    {"id": "sfx-splat2", "src": "assets/sfx/splat.wav", "start": 13.6, "lane": 4, "vol": 0.6},
+    {"id": "sfx-drip", "src": "assets/sfx/pop.wav", "start": 17.6, "lane": 3, "vol": 0.4},
+    {"id": "sfx-gulp", "src": "assets/sfx/gulp.wav", "start": 18.85, "lane": 3, "vol": 0.9},
+    {"id": "sfx-ding", "src": "assets/sfx/ding.wav", "start": 19.4, "lane": 4, "vol": 0.35}
+  ]
+}

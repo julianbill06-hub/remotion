@@ -63,3 +63,20 @@ Send this to the person who never decides 👇
 
 #shorts #otto #couplehumor #relatable #girlfriend #3danimation #funny
 ```
+
+## Ep 4 — The pickle jar (solo)
+
+TikTok:
+```
+Hot water was right there 💀🥒 #otto #overengineering #3danimation #relatable #funny #fyp
+```
+YouTube title: `When the jar just won't open 🥒 #shorts`
+```
+You want one pickle. The jar won't open. Normal people would run it under hot water. Not Otto.
+
+A hydraulic press. 20 tons of pressure. The lid came off. So did the jar. And the kitchen.
+
+What's your go-to trick for stuck jars? 👇
+
+#shorts #otto #overengineering #3danimation #funny #relatable #lifehack
+```
